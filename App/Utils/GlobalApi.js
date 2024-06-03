@@ -1,7 +1,7 @@
 
 import axios from 'axios'
 const BASE_URL="https://places.googleapis.com/v1/places:searchNearby";
-const API_KEY="AIzaSyBSUCyuhU0YpGswdaIGgl4H1-8Lzq2D6eE";
+const API_KEY="GOOGLE_API_KEY";
 const CLERK_API_KEY='';
 const FIREBASE_API="AIzaSyBEixJlMTFX7_X5--TNJ1CIobpTnIWpRw8"
 const config={
