@@ -50,7 +50,7 @@ export default function App() {
   return (
     <ClerkProvider 
       tokenCache={tokenCache}
-      publishableKey={'pk_test_ZXF1YWwtcm9kZW50LTk3LmNsZXJrLmFjY291bnRzLmRldiQ'}>
+      publishableKey={'CLERK_API_KEY'}>
       <UserLocationProvider>
         <View style={styles.container} onLayout={onLayoutRootView}>
           <SignedIn>
