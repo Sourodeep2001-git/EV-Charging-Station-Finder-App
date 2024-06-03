@@ -43,7 +43,7 @@ export default function SearchBar({ searchedLocation }) {
           searchedLocation(details?.geometry?.location);
         }}
         query={{
-          key: 'AIzaSyBSUCyuhU0YpGswdaIGgl4H1-8Lzq2D6eE',
+          key: 'GOOGLE_API_KEY',
           language: 'en',
         }}
         textInputProps={{
