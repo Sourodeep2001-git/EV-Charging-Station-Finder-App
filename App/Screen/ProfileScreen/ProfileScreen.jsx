@@ -69,7 +69,7 @@ export default function ProfileScreen() {
           item.id==1?
           navigation.navigate('favorite')
           :item.id==3?signOut()
-          :Linking.openURL('tel: +91 8777586294')
+          :Linking.openURL('tel: PhoneNumber')
 
         }
         style={{
